@@ -1,7 +1,11 @@
-import data from './data';
+import Carousel from './Carousel';
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Carousel />
+    </main>
+  );
 };
 
 export default App;
