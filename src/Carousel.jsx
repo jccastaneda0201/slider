@@ -21,13 +21,13 @@ const Carousel = () => {
   };
 
   useEffect(() => {
-    let slider = setInterval(() => {
+    let sliderId = setInterval(() => {
       setCurrentPerson((oldPerson) => {
         const result = (oldPerson + 1) % people.length;
         return result;
       });
     }, 5000);
-    return () => clearInterval(slider);
+    return () => clearInterval(sliderId);
   }, [currentPerson, people]);
 
   return (

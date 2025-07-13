@@ -350,7 +350,7 @@ ul {
   max-width: 800px;
   text-align: center;
 }
-.slick-slide img {
+.slick-slide .person-img {
   display: inline-block;
 }
 
